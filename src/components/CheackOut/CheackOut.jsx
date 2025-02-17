@@ -2,8 +2,8 @@
 // import styles from './CheackOut.module.css'
 import { useFormik } from "formik";
 import { useContext, useEffect, useState } from "react";
-import { CartContext } from "../../Context/CartContext";
-import { Navigate, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { CartContext } from "../../context/CartContext";
 
 export default function CheackOut() {
   const [MessageResponse, setMessageResponse] = useState("");
