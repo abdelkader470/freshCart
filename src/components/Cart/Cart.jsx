@@ -2,9 +2,9 @@
 // import styles from './Cart.module.css'
 
 import { useContext, useEffect, useState } from "react";
-import { CartContext } from "../../Context/CartContext";
 import Loader from "../Loader/Loader";
 import { Link } from "react-router-dom";
+import { CartContext } from "../../context/CartContext";
 
 export default function Cart() {
   const [cartItems, setCartItems] = useState([]);
